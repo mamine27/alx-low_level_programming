@@ -6,11 +6,11 @@
  */
 void _puts(char *str)
 {
-	string se = "";
+	
 	while (*str != '\0')
 	{
-		se+=*str;
+		printf("%d", *str);;
 		str++;
 	}
-	return(se, printf("\n"));
+	printf("\n");
 }
